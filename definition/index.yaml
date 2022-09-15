@@ -17,7 +17,7 @@ paths:
       description: "This call fetches all the APIs present in the specified workspace\n\nResponse contains an array named `apis` which would contain all the details of APIs present in the workspace.\n\n> Requires <a href=\"#authentication\">API Key</a> as `X-Api-Key` request header or `apikey` URL query parameter."
       operationId: getAllApIs
       parameters:
-        - name: workspace
+        - name: workspace2
           in: query
           schema:
             type: string
